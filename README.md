@@ -15,8 +15,6 @@ WorldGen Altering Mods First:
     
     Realistic Worldgen Mod - http://minecraft-forum.net/minecraft-mods-downloads/1-7-10-realistic-world-gen-mod-download/#.VNpjA_ldXpA
     
-    Hardcore ender expansion- more exploration, more stuff to do in the end lots of good stuff for the pack
-    
 
 Non Worldgen Altering Mods:
     Thaumic energistics
