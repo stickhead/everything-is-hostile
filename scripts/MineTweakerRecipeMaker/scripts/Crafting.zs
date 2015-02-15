@@ -33,6 +33,7 @@ recipes.remove(<witchery:ingredient:153>);
 recipes.remove(<AWWayofTime:Altar>);
 recipes.remove(<Thaumcraft:WandCasting>);
 recipes.remove(<arsmagica2:occulus>);
+recipes.remove(<evilcraft:vengeancePickaxe>);
  
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
