@@ -35,10 +35,19 @@ recipes.remove(<Thaumcraft:WandCasting>);
 recipes.remove(<arsmagica2:occulus>);
 recipes.remove(<evilcraft:vengeancePickaxe>);
 recipes.remove(<ExtraUtilities:generator>);
-recipes.remove(<ExtraUtilities:generator>);
-recipes.remove(<ExtraUtilities:generator>);
-recipes.remove(<ExtraUtilities:generator>);
-recipes.remove(<ExtraUtilities:generator>);
+recipes.remove(<ExtraUtilities:generator:1>);
+recipes.remove(<ExtraUtilities:generator:2>);
+recipes.remove(<ExtraUtilities:generator:3>);
+recipes.remove(<ExtraUtilities:generator:5>);
+recipes.remove(<ExtraUtilities:generator:6>);
+recipes.remove(<ExtraUtilities:generator:7>);
+recipes.remove(<ExtraUtilities:generator:4>);
+recipes.remove(<ExtraUtilities:generator:8>);
+recipes.remove(<ExtraUtilities:generator:9>);
+recipes.remove(<ExtraUtilities:generator:10>);
+recipes.remove(<ExtraUtilities:generator:11>);
+
+
 
  
 // ================================================================================
