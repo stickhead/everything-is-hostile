@@ -34,6 +34,12 @@ recipes.remove(<AWWayofTime:Altar>);
 recipes.remove(<Thaumcraft:WandCasting>);
 recipes.remove(<arsmagica2:occulus>);
 recipes.remove(<evilcraft:vengeancePickaxe>);
+recipes.remove(<ExtraUtilities:generator>);
+recipes.remove(<ExtraUtilities:generator>);
+recipes.remove(<ExtraUtilities:generator>);
+recipes.remove(<ExtraUtilities:generator>);
+recipes.remove(<ExtraUtilities:generator>);
+
  
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
