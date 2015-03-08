@@ -99,6 +99,9 @@ toolparts {
     # partnames are: scythe, pickaxe, rod, largeguard, shovel, sign, swordblade, binding, fullguard, arrowhead, crossbowlimb, axe, bowlimb, excavator, hammerhead, mediumguard, frypan, crossbar, toughbinding, crossbowbody, broadaxe, chisel, knifeblade, largerod, shuriken, largeplate, largeblade, 
     #  [default: ]
     S:restricted <
+    manyullyn:swordblade
+    ardite:swordblade
+    cobalt:swordblade
      >
 }
 
