@@ -13,3 +13,4 @@ http://mirror.slope.haus/solder/repo/mods/everything-is-hostile-configs/everythi
 
 12/02/2015 - Added Modtweaker and Technomancy, disabled all Exu Generators
 11/02/2015 ~ Added Abyssal Craft + HQM + Botania and Infernal mob tweaks, will push config changes later today
+
