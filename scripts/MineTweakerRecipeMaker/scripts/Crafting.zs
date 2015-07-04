@@ -12,9 +12,6 @@
 
 // ================================================================================
 //#MARKER REMOVE
-recipes.remove(<weather2:WeatherDeflector>);
-recipes.remove(<weather2:WeatherMachine>);
-recipes.remove(<magicalcrops:magicalcrops_MagicSeedsIron> *4);
 recipes.remove(<TConstruct:ToolForgeBlock:10>);
 recipes.remove(<TConstruct:ToolForgeBlock:13>);
 recipes.remove(<TConstruct:ToolForgeBlock:11>);
@@ -30,14 +27,11 @@ recipes.remove(<TConstruct:ToolForgeBlock:1>);
 recipes.remove(<minecraft:end_portal>);
 recipes.remove(<witchery:ingredient:153>);
 recipes.remove(<witchery:distilleryidle>);
-recipes.remove(<magicalcrops:magicalcrops_MagicSeedsGold>);
-recipes.remove(<magicalcrops:magicalcrops_MagicSeedsIron>);
 recipes.remove(<ExtraUtilities:decorativeBlock1:12>);
 recipes.remove(<ExtraUtilities:decorativeBlock1:1> * 4);
 recipes.remove(<ExtraUtilities:enderQuarry>);
 recipes.remove(<ExtraUtilities:enderQuarryUpgrade:8>);
 recipes.remove(<ExtraUtilities:enderQuarryUpgrade:7>);
-recipes.remove(<magicalcrops:magicalcrops_ArmourMaterials:2>);
 recipes.remove(<Thaumcraft:WandCap>);
 recipes.remove(<TConstruct:CraftingSlab:5>);
 recipes.remove(<JABBA:moverDiamond>);
@@ -55,7 +49,6 @@ recipes.remove(<arsmagica2:occulus>);
 // ================================================================================
 //#MARKER REMOVE SHAPED
 recipes.removeShaped(<minecraft:coal_block>, [[<ore:coal>, <ore:coal>, <ore:coal>], [<ore:coal>, <minecraft:coal>, <ore:coal>], [<ore:coal>, <ore:coal>, <ore:coal>]]);
-recipes.removeShaped(<minecraft:coal_block>, [[<ore:coal>, <ore:coal>, <ore:coal>], [<ore:coal>, <magicalcrops:magicalcrops_InfusionStone:1>, <ore:coal>], [<ore:coal>, <ore:coal>, <ore:coal>]]);
 recipes.removeShaped(<TConstruct:ToolForgeBlock>, [[<TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>], [<Botania:storage>, <TConstruct:ToolStationBlock>, <Botania:storage>], [<Botania:storage>, null, <Botania:storage>]]);
 
 // ================================================================================
@@ -68,31 +61,20 @@ recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 // ================================================================================
 //#MARKER ADD SHAPED
 recipes.addShaped(<evilcraft:poisonSac>, [[null, <minecraft:fermented_spider_eye>, null], [<ore:dyeBlack>, <evilcraft:bloodOrb:1>, <ore:dyeBlack>], [null, <minecraft:fermented_spider_eye>, null]]);
-recipes.addShaped(<weather2:WeatherDeflector>, [[<ore:ingotGold>, <minecraft:comparator>, <ore:ingotGold>], [<weather2:WindVane>, <minecraft:compass>, <weather2:WindVane>]]);
-recipes.addShaped(<magicalcrops:magicalcrops_MagicSeedsIron> * 4, [[<magicalcrops:magicalcrops_MagicEssence:2>, <ore:ingotIron>, <magicalcrops:magicalcrops_MagicEssence:2>], [<ore:ingotIron>, <minecraft:wheat_seeds>, <ore:ingotIron>], [<magicalcrops:magicalcrops_MagicEssence:2>, <ore:ingotIron>, <magicalcrops:magicalcrops_MagicEssence:2>]]);
-recipes.addShaped(<minecraft:coal_block>, [[<ore:coal>, <ore:coal>, <ore:coal>], [<ore:coal>, <magicalcrops:magicalcrops_InfusionStone:1>.reuse(), <ore:coal>], [<ore:coal>, <ore:coal>, <ore:coal>]]);
-recipes.addShaped(<minecraft:coal_block>, [[<ore:charcoal>, <ore:charcoal>, <ore:charcoal>], [<ore:charcoal>, <magicalcrops:magicalcrops_InfusionStone:2>.reuse(), <ore:charcoal>], [<ore:charcoal>, <ore:charcoal>, <ore:charcoal>]]);
 recipes.addShaped(<battlegear2:chain> * 6, [[<ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<battlegear2:chain> * 3, [[<ore:ingotIron>, null], [null, <ore:ingotIron>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:3>, [[<technom:itemBO:1>.reuse(), <ore:gemQuartz>, <technom:itemBO:1>.reuse()]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:2>, [[<technom:itemBO:1>.reuse(), <ore:crystalCertusQuartz>, <technom:itemBO:1>.reuse()]]);
-recipes.addShaped(<TConstruct:SearedBrick:1>, [[<magicalcrops:magicalcrops_ModCropEssence:10>, <magicalcrops:magicalcrops_ModCropEssence:10>, <magicalcrops:magicalcrops_ModCropEssence:10>], [<magicalcrops:magicalcrops_ModCropEssence:10>, null, <magicalcrops:magicalcrops_ModCropEssence:10>], [<magicalcrops:magicalcrops_ModCropEssence:10>, <magicalcrops:magicalcrops_ModCropEssence:10>, <magicalcrops:magicalcrops_ModCropEssence:10>]]);
-recipes.addShaped(<TConstruct:SearedBrick:2>, [[<magicalcrops:magicalcrops_ModCropEssence:11>, <magicalcrops:magicalcrops_ModCropEssence:11>, <magicalcrops:magicalcrops_ModCropEssence:11>], [<magicalcrops:magicalcrops_ModCropEssence:11>, null, <magicalcrops:magicalcrops_ModCropEssence:11>], [<magicalcrops:magicalcrops_ModCropEssence:11>, <magicalcrops:magicalcrops_ModCropEssence:11>, <magicalcrops:magicalcrops_ModCropEssence:11>]]);
-recipes.addShaped(<minecraft:end_portal_frame>, [[<magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>], [<magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>], [<magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>, <magicalcrops:magicalcrops_CropEssence:9>]]);
-recipes.addShaped(<magicalcrops:magicalcrops_SeedsSugarCane> * 4, [[<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>], [<minecraft:reeds>, <magicalcrops:magicalcrops_ElementSeedsEarth>, <minecraft:reeds>], [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
-recipes.addShaped(<witchery:ingredient:153>, [[<magicalcrops:magicalcrops_ElementEssence:2>, <witchery:seedsbelladonna>, <magicalcrops:magicalcrops_ElementEssence:2>], [<witchery:seedsmandrake>, <evilcraft:undeadSapling>, <witchery:seedssnowbell>], [<magicalcrops:magicalcrops_ElementEssence:2>, <witchery:seedsartichoke>, <magicalcrops:magicalcrops_ElementEssence:2>]]);
+recipes.addShaped(<minecraft:end_portal_frame>, [[<magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>], [<magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>], [<magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>]]);
 recipes.addShaped(<witchery:distilleryidle>, [[<witchery:ingredient:27>, <ore:ingotIron>, <witchery:ingredient:27>], [<ore:ingotIron>, <minecraft:magma_cream>, <minecraft:iron_ingot>], [<ore:ingotBronze>, <witchery:ingredient:10>, <ore:ingotBronze>]]);
 recipes.addShaped(<minecraft:enchanted_book>, [[<witchery:ingredient:36>, <witchery:ingredient:34>, <witchery:ingredient:36>], [<witchery:ingredient:34>, <minecraft:book>, <witchery:ingredient:34>], [<witchery:ingredient:36>, <witchery:ingredient:34>, <witchery:ingredient:36>]]);
-recipes.addShaped(<magicalcrops:magicalcrops_MagicSeedsGold> * 4, [[<magicalcrops:magicalcrops_MagicEssence:3>, <ore:ingotGold>, <magicalcrops:magicalcrops_MagicEssence:3>], [<minecraft:gold_ingot>, <minecraft:wheat_seeds>, <ore:ingotGold>], [<magicalcrops:magicalcrops_MagicEssence:3>, <ore:ingotGold>, <magicalcrops:magicalcrops_MagicEssence:3>]]);
 recipes.addShaped(<minecraft:string> * 4, [[null, <ore:dyeWhite>, null], [<ore:dyeWhite>, <Natura:barleyFood:7>, <ore:dyeWhite>], [null, <ore:dyeWhite>, null]]);
 recipes.addShaped(<arsmagica2:occulus>, [[null, <minecraft:diamond>, null], [<Thaumcraft:ItemShard:6>, <ore:burntquartz>, <Thaumcraft:ItemShard:6>], [<ore:blockChimerite>, null, <ore:blockChimerite>]]);
-recipes.addShaped(<TConstruct:SearedBrick:5>, [[<magicalcrops:magicalcrops_ModCropEssence:8>, <magicalcrops:magicalcrops_ModCropEssence:8>, <magicalcrops:magicalcrops_ModCropEssence:8>], [<magicalcrops:magicalcrops_ModCropEssence:8>, null, <magicalcrops:magicalcrops_ModCropEssence:8>], [<magicalcrops:magicalcrops_ModCropEssence:8>, <magicalcrops:magicalcrops_ModCropEssence:8>, <magicalcrops:magicalcrops_ModCropEssence:8>]]);
+recipes.addShaped(<TConstruct:SearedBrick:5>, [[<magicalcrops:magicalcrops_ObsidianEssence>, <magicalcrops:magicalcrops_ObsidianEssence>, <magicalcrops:magicalcrops_ObsidianEssence>], [<magicalcrops:magicalcrops_ObsidianEssence>, null, <magicalcrops:magicalcrops_ObsidianEssence>], [<magicalcrops:magicalcrops_ObsidianEssence>, <magicalcrops:magicalcrops_ObsidianEssence>, <magicalcrops:magicalcrops_ObsidianEssence>]]);
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:12>, [[<ore:burntquartz>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:burntquartz>], [<appliedenergistics2:item.ItemMultiMaterial:24>, <AWWayofTime:demonicSlate>, <appliedenergistics2:item.ItemMultiMaterial:24>], [<ore:burntquartz>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:burntquartz>]]);
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:1> * 4, [[null, <Thaumcraft:blockCosmeticSolid:1>, null], [<ore:whiteStone>, <minecraft:ender_eye>, <minecraft:end_stone>], [null, <Thaumcraft:blockCosmeticSolid:1>, null]]);
-recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<ore:enderobsidian>, <magicalcrops:magicalcrops_InfusionStone:2>, <ore:enderobsidian>], [<ore:endercore>, <ExtraUtilities:decorativeBlock1:12>, <ore:endercore>], [<ExtraUtilities:enderThermicPump>, <Botania:manasteelPick>, <ExtraUtilities:enderThermicPump>]]);
-recipes.addShaped(<magicalcrops:magicalcrops_ModMagicSeedsAlumin> * 4, [[<magicalcrops:magicalcrops_MagicEssence:2>, <ore:ingotAluminium>, <magicalcrops:magicalcrops_MagicEssence:2>], [<ore:ingotAluminium>, <minecraft:wheat_seeds>, <ore:ingotAluminium>], [<magicalcrops:magicalcrops_MagicEssence:2>, <ore:ingotAluminium>, <magicalcrops:magicalcrops_MagicEssence:2>]]);
-recipes.addShaped(<magicalcrops:magicalcrops_ArmourMaterials:2>, [[null, <AWWayofTime:demonicSlate>, null], [<AWWayofTime:demonicSlate>, <minecraft:nether_star>, <AWWayofTime:demonicSlate>], [null, <magicalcrops:magicalcrops_MagicEssence:4>, null]]);
-recipes.addShaped(<Thaumcraft:WandCap>, [[<magicalcrops:magicalcrops_CropEssence:4>, <magicalcrops:magicalcrops_CropEssence:4>, <magicalcrops:magicalcrops_CropEssence:4>], [<magicalcrops:magicalcrops_CropEssence:4>, null, <magicalcrops:magicalcrops_CropEssence:4>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarry>, [[<ore:enderobsidian>, <magicalcrops:magicalcrops_InfusionStoneRegular:1>, <ore:enderobsidian>], [<ore:endercore>, <ExtraUtilities:decorativeBlock1:12>, <ore:endercore>], [<ExtraUtilities:enderThermicPump>, <Botania:manasteelPick>, <ExtraUtilities:enderThermicPump>]]);
+recipes.addShaped(<magicalcrops:magicalcrops_AluminiumEssence> * 4, [[<magicalcrops:magicalcrops_2AccioEssence>, <ore:ingotAluminium>, <magicalcrops:magicalcrops_2AccioEssence>], [<ore:ingotAluminium>, <minecraft:wheat_seeds>, <ore:ingotAluminium>], [<magicalcrops:magicalcrops_2AccioEssence>, <ore:ingotAluminium>, <magicalcrops:magicalcrops_2AccioEssence>]]);
 recipes.addShaped(<Thaumcraft:WandCasting>, [[null, null, <Thaumcraft:WandCap>], [null, <ore:stickWood>, null], [<Thaumcraft:WandCap>, null, null]]);
 recipes.addShaped(<TConstruct:ToolForgeBlock>, [[<TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>], [<Botania:storage>, <TConstruct:ToolStationBlock>, <Botania:storage>], [<Botania:storage>, null, <Botania:storage>]]);
 recipes.addShaped(<TConstruct:CraftingSlab:5>, [[<TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>, <TConstruct:Smeltery:2>], [<Botania:storage>, <TConstruct:CraftingSlab:1>, <Botania:storage>], [<Botania:storage>, null, <Botania:storage>]]);

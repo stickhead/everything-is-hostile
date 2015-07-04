@@ -14,9 +14,9 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:WandCap:3>, "ignis 2, ae
 //Gold Wandcaps Require gold essence and manasteel ingots and balance shard
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:1>);
 mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:WandCap:1>, "ignis 3, aer 3, ordo 3",
-[[<magicalcrops:magicalcrops_CropEssence:5>, <ore:ingotManasteel>,
-<magicalcrops:magicalcrops_CropEssence:5>], [<magicalcrops:magicalcrops_CropEssence:5>,
-null, <magicalcrops:magicalcrops_CropEssence:5>], [null, <Thaumcraft:ItemShard:6>, null]]
+[[<magicalcrops:magicalcrops_GoldEssence>, <ore:ingotManasteel>,
+<magicalcrops:magicalcrops_GoldEssence>], [<magicalcrops:magicalcrops_GoldEssence>,
+null, <magicalcrops:magicalcrops_GoldEssence>], [null, <Thaumcraft:ItemShard:6>, null]]
 );
 
 
