@@ -12,6 +12,15 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<magicalcrops:magicalcrops_UltimateFurnace>);
+recipes.remove(<magicalcrops:magicalcrops_ZivicioFurnace>);
+recipes.remove(<magicalcrops:magicalcrops_ImperioFurnace>);
+recipes.remove(<magicalcrops:magicalcrops_CrucioFurnace>);
+recipes.remove(<magicalcrops:magicalcrops_AccioFurnace>);
+recipes.remove(<magicalcrops:magicalcrops_EssenceIngots:1>);
+recipes.remove(<magicalcrops:magicalcrops_EssenceIngots:2>);
+recipes.remove(<magicalcrops:magicalcrops_EssenceIngots>);
+recipes.remove(<magicalcrops:magicalcrops_EssenceIngots:3>);
 recipes.remove(<TConstruct:ToolForgeBlock:10>);
 recipes.remove(<TConstruct:ToolForgeBlock:13>);
 recipes.remove(<TConstruct:ToolForgeBlock:11>);
@@ -60,6 +69,15 @@ recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<magicalcrops:magicalcrops_UltimateFurnace>, [[<magicalcrops:magicalcrops_5ZivicioEssence>, <minecraft:nether_star>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_ZivicioFurnace>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>]]);
+recipes.addShaped(<magicalcrops:magicalcrops_ZivicioFurnace>, [[<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_ImperioFurnace>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<EnderIO:blockIngotStorage:2>, <EnderIO:blockIngotStorage:2>, <EnderIO:blockIngotStorage:2>]]);
+recipes.addShaped(<magicalcrops:magicalcrops_ImperioFurnace>, [[<magicalcrops:magicalcrops_4ImperioEssence>, <magicalcrops:magicalcrops_4ImperioEssence>, <magicalcrops:magicalcrops_4ImperioEssence>], [<magicalcrops:magicalcrops_4ImperioEssence>, <magicalcrops:magicalcrops_CrucioFurnace>, <magicalcrops:magicalcrops_4ImperioEssence>], [<minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>]]);
+recipes.addShaped(<magicalcrops:magicalcrops_CrucioFurnace>, [[<magicalcrops:magicalcrops_3CrucioEssence>, <magicalcrops:magicalcrops_3CrucioEssence>, <magicalcrops:magicalcrops_3CrucioEssence>], [<magicalcrops:magicalcrops_3CrucioEssence>, <magicalcrops:magicalcrops_AccioFurnace>, <magicalcrops:magicalcrops_3CrucioEssence>], [<ore:MainInfusionMaterial>, <ore:MainInfusionMaterial>, <ore:MainInfusionMaterial>]]);
+recipes.addShaped(<magicalcrops:magicalcrops_AccioFurnace>, [[<magicalcrops:magicalcrops_2AccioEssence>, <magicalcrops:magicalcrops_2AccioEssence>, <magicalcrops:magicalcrops_2AccioEssence>], [<magicalcrops:magicalcrops_2AccioEssence>, <minecraft:furnace>, <magicalcrops:magicalcrops_2AccioEssence>], [<ore:blockIron>, <ore:blockIron>, <ore:blockIron>]]);
+recipes.addShaped(<magicalcrops:magicalcrops_EssenceIngots:1> * 3, [[<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_3CrucioEssence>, <RandomThings:ingredient:4>], [<magicalcrops:magicalcrops_3CrucioEssence>, <ore:ingotGold>, <magicalcrops:magicalcrops_3CrucioEssence>], [<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_3CrucioEssence>, <RandomThings:ingredient:4>]]);
+recipes.addShaped(<magicalcrops:magicalcrops_EssenceIngots:2> * 3, [[<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_4ImperioEssence>, <RandomThings:ingredient:4>], [<magicalcrops:magicalcrops_4ImperioEssence>, <BiomesOPlenty:gems:6>, <magicalcrops:magicalcrops_4ImperioEssence>], [<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_4ImperioEssence>, <RandomThings:ingredient:4>]]);
+recipes.addShaped(<magicalcrops:magicalcrops_EssenceIngots> * 3, [[<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_2AccioEssence>, <RandomThings:ingredient:4>], [<magicalcrops:magicalcrops_2AccioEssence>, <BiomesOPlenty:gems:3>, <magicalcrops:magicalcrops_2AccioEssence>], [<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_2AccioEssence>, <RandomThings:ingredient:4>]]);
+recipes.addShaped(<magicalcrops:magicalcrops_EssenceIngots:3> * 3, [[<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_5ZivicioEssence>, <RandomThings:ingredient:4>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <BiomesOPlenty:gems>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_5ZivicioEssence>, <RandomThings:ingredient:4>]]);
 recipes.addShaped(<evilcraft:poisonSac>, [[null, <minecraft:fermented_spider_eye>, null], [<ore:dyeBlack>, <evilcraft:bloodOrb:1>, <ore:dyeBlack>], [null, <minecraft:fermented_spider_eye>, null]]);
 recipes.addShaped(<battlegear2:chain> * 6, [[<ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<battlegear2:chain> * 3, [[<ore:ingotIron>, null], [null, <ore:ingotIron>]]);
