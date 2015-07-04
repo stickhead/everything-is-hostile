@@ -12,6 +12,39 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<EnderIO:itemGliderWing>);
+recipes.remove(<EnderIO:itemGliderWing>);
+recipes.remove(<EnderIO:itemGliderWing:1>);
+recipes.remove(<EnderIO:item.darkSteel_chestplate>);
+recipes.remove(<EnderIO:item.darkSteel_helmet>);
+recipes.remove(<EnderIO:item.darkSteel_leggings>);
+recipes.remove(<EnderIO:item.darkSteel_boots>);
+recipes.remove(<EnderIO:item.darkSteel_sword>);
+recipes.remove(<EnderIO:item.darkSteel_pickaxe>);
+recipes.remove(<EnderIO:item.darkSteel_axe>);
+recipes.remove(<EnderIO:item.darkSteel_shears>);
+recipes.remove(<EnderIO:blockCapBank>);
+recipes.remove(<EnderIO:blockAlloySmelter>);
+recipes.remove(<EnderIO:blockSagMill>);
+recipes.remove(<EnderIO:blockSolarPanel:1>);
+recipes.remove(<EnderIO:blockSolarPanel>);
+recipes.remove(<EnderIO:blockZombieGenerator>);
+recipes.remove(<EnderIO:blockCombustionGenerator>);
+recipes.remove(<EnderIO:blockStirlingGenerator>);
+recipes.remove(<EnderIO:itemMagnet:16>);
+recipes.remove(<EnderIO:blockAttractor>);
+recipes.remove(<EnderIO:blockInhibitorObelisk>);
+recipes.remove(<EnderIO:blockWeatherObelisk>);
+recipes.remove(<EnderIO:blockSpawnGuard>);
+recipes.remove(<EnderIO:blockPoweredSpawner>);
+recipes.remove(<EnderIO:blockSoulBinder>);
+recipes.remove(<EnderIO:blockTransceiver>);
+recipes.remove(<EnderIO:blockPowerMonitor>);
+recipes.remove(<EnderIO:blockFarmStation>);
+recipes.remove(<EnderIO:blockCrafter>);
+recipes.remove(<EnderIO:blockCapBank:3>);
+recipes.remove(<EnderIO:blockCapBank:2>);
+recipes.remove(<EnderIO:blockCapBank:1>);
 recipes.remove(<magicalcrops:magicalcrops_UltimateFurnace>);
 recipes.remove(<magicalcrops:magicalcrops_ZivicioFurnace>);
 recipes.remove(<magicalcrops:magicalcrops_ImperioFurnace>);
