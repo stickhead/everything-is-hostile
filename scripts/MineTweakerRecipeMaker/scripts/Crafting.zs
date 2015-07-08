@@ -83,6 +83,15 @@ recipes.remove(<ExtraUtilities:angelRing>);
 recipes.remove(<witchery:ingredient:153>);
 recipes.remove(<Thaumcraft:WandCasting>);
 recipes.remove(<arsmagica2:occulus>);
+recipes.remove(<EnderIO:itemAlloy>);
+recipes.remove(<EnderIO:itemAlloy1>);
+recipes.remove(<EnderIO:itemAlloy2>);
+recipes.remove(<EnderIO:itemAlloy3>);
+recipes.remove(<EnderIO:itemAlloy4>);
+recipes.remove(<EnderIO:itemAlloy5>);
+recipes.remove(<EnderIO:itemAlloy6>);
+recipes.remove(<EnderIO:itemAlloy7>);
+
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
