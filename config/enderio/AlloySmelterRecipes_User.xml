@@ -24,8 +24,22 @@ ore dictionary.
   Add this line to disbale the creation of TE alloys using the Alloy Smelter.
   <recipeGroup name="Thermal Expansion" enabled="false"/>
 -->
+<vanillaFurnaceRecipes enabled="false"/> 
+<recipeGroup name="Thermal Expansion" enabled="false"/>
 
 <AlloySmelterRecipes>
-  
+      <exclude>
+      <itemStack itemID="1821" /> 
+	  <itemStack itemID="5682" /> 
+	  <itemStack itemID="5493" /> 
+	  <itemStack itemID="1821" /> 
+	  <itemStack itemID="1821" /> 
+	  <itemStack itemID="1821" /> 
+	  <itemStack itemID="1821" /> 
+	  <itemStack itemID="1821" /> 
+	  <itemStack itemID="1821" /> 
+	  <itemStack itemID="1821" /> 
+	  
+    </exclude>
 </AlloySmelterRecipes>  
 
