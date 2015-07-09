@@ -21,87 +21,72 @@ found in the core file.
 -->
 
 <SAGMillRecipes>
-
-<!-- Disables all recipes in the group 'Vanilla'
 <recipeGroup name="Vanilla" enabled="false"/> 
--->
-
-<!-- Uncomment this block to change the default TE obsidian -> dust recipe to the railcraft recipe.  
-  <recipeGroup name="Thermal Expansion">
-  
-    <recipe name="Obsidian" energyCost="400">
-      <input>
-        <itemStack itemID="49" />
-      </input>      
-      <output>
-        <itemStack modID="Railcraft" itemName="tile.railcraft.cube" itemMeta="4" number="1" />
-      </output>
-      <output>
-        <itemStack oreDictionary="dustObsidian" number="1" chance="0.15" />
-      </output>
-      <output>
-        <itemStack oreDictionary="dustObsidian" number="1" chance="0.025" />
-      </output>
-    </recipe>
-    
-</recipeGroup> 
--->
-
-<!-- Disables the glass recipes in the group 'Vanilla' 
-<recipeGroup name="Vanilla"> 
-  <recipe name="Glass"/> 
-</recipeGroup>
--->
-
-
-<!-- Modify a core recipe defination, in this case, make glass give diamonds. 
-<recipeGroup name="Vanilla">
-  <recipe name="Glass" energyCost="120"> 
-      <input>
-        <itemStack itemID="20" />
-      </input>
-      <output>
-        <itemStack itemID="264" />
-      </output>
-    </recipe>
-</recipeGroup>
--->
-
-<!-- Adding a new recipe to a new group 
-<recipeGroup name="CrazyPantsGroup">
-  <recipe name="SolarToGlass" energyCost="120"> 
-      <input>
-        <itemStack modID="EnderIO" itemName="enderIO:blockSolarPanel"/>
-      </input>
-      <output>
-        <itemStack itemID="20" />
-      </output>
-    </recipe>
-</recipeGroup>
--->
-
-<!-- Adding a new grinding ball  
-  <grindingBalls>  
-    <grindingBall id="Diamond" grindingMultiplier="1.5" chanceMultiplier="2" powerMultiplier="0.5" durationRF="50000">
-      <itemStack modID="minecraft" itemName="diamond"/>
-    </grindingBall>
-  </grindingBalls>
-  -->
-
-<!-- - Removing an existing grinding ball:
-  <grindingBalls>
-    <grindingBall id="Flint" remove="true" />
-  </grindingBalls>
- -->  
- 
- <!-- - Modifiying the excludes list: (removing glowstone, adding sand)
-  <grindingBalls>
     <excludes>
-      <itemStack modID="minecraft" itemName="glowstone" remove="true" />
-      <itemStack modID="minecraft" itemName="sand" />
+	<itemStack itemID="237" remove="true" />
+<itemStack itemID="427" remove="true" />
+<itemStack itemID="2665" remove="true" />
+<itemStack itemID="1538" remove="true" />
+<itemStack itemID="475" remove="true" />
+<itemStack itemID="1618" remove="true" />
+<itemStack itemID="1617" remove="true" />
+<itemStack itemID="476" remove="true" />
+<itemStack itemID="478" remove="true" />
+<itemStack itemID="1508" remove="true" />
+<itemStack itemID="859 remove="true" />
+<itemStack itemID="863" remove="true" />
+<itemStack itemID="176" remove="true" />
+<itemStack itemID="156" remove="true" />
+<itemStack itemID="20" remove="true" />
+<itemStack itemID="729" remove="true" />
+<itemStack itemID="98" remove="true" />
+<itemStack itemID="153" remove="true" />
+<itemStack itemID="87" remove="true" />
+<itemStack itemID="1" remove="true" />
+<itemStack itemID="129" remove="true" />
+<itemStack itemID="98" remove="true" />
+<itemStack itemID="44" remove="true" />
+<itemStack itemID="73" remove="true" />
+<itemStack itemID="21" remove="true" />
+<itemStack itemID="13" remove="true" />
+<itemStack itemID="35" remove="true" />
+<itemStack itemID="352" remove="true" />
+<itemStack itemID="296" remove="true" />
+<itemStack itemID="4" remove="true" />
+<itemStack itemID="155" remove="true" />
+<itemStack itemID="56" remove="true" />
+<itemStack itemID="473" remove="true" />
+<itemStack itemID="24" remove="true" />
+<itemStack itemID="369" remove="true" />
+<itemStack itemID="89" remove="true" />
+<itemStack itemID="82" remove="true" />
+<itemStack itemID="49" remove="true" />
+<itemStack itemID="503" remove="true" />
+<itemStack itemID="4469" remove="true" />
+<itemStack itemID="502" remove="true" />
+<itemStack itemID="369" remove="true" />
+<itemStack itemID="15" remove="true" />
+<itemStack itemID="471" remove="true" />
+<itemStack itemID="472" remove="true" />
+<itemStack itemID="263" remove="true" />
+<itemStack itemID="12" remove="true" />
+<itemStack itemID="266" remove="true" />
+<itemStack itemID="16" remove="true" />
+<itemStack itemID="4633" remove="true" />
+<itemStack itemID="1570" remove="true" />
+<itemStack itemID="14" remove="true" />
+<itemStack itemID="845" remove="true" />
+<itemStack itemID="846" remove="true" />
+<itemStack itemID="847" remove="true" />
+<itemStack itemID="848" remove="true" />
+<itemStack itemID="849" remove="true" />
+<itemStack itemID="850" remove="true" />
+<itemStack itemID="177" remove="true" />
+
+
+
     </excludes>
-  </grindingBalls>
- --> 
+ 
 
 
 </SAGMillRecipes>
