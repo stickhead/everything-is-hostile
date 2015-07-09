@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<minecraft:nether_star>);
 recipes.remove(<EnderIO:itemGliderWing>);
 recipes.remove(<EnderIO:itemGliderWing>);
 recipes.remove(<EnderIO:itemGliderWing:1>);
@@ -84,13 +85,13 @@ recipes.remove(<witchery:ingredient:153>);
 recipes.remove(<Thaumcraft:WandCasting>);
 recipes.remove(<arsmagica2:occulus>);
 recipes.remove(<EnderIO:itemAlloy>);
-recipes.remove(<EnderIO:itemAlloy1>);
-recipes.remove(<EnderIO:itemAlloy2>);
-recipes.remove(<EnderIO:itemAlloy3>);
-recipes.remove(<EnderIO:itemAlloy4>);
-recipes.remove(<EnderIO:itemAlloy5>);
-recipes.remove(<EnderIO:itemAlloy6>);
-recipes.remove(<EnderIO:itemAlloy7>);
+recipes.remove(<EnderIO:itemAlloy:1>);
+recipes.remove(<EnderIO:itemAlloy:2>);
+recipes.remove(<EnderIO:itemAlloy:3>);
+recipes.remove(<EnderIO:itemAlloy:4>);
+recipes.remove(<EnderIO:itemAlloy:5>);
+recipes.remove(<EnderIO:itemAlloy:6>);
+recipes.remove(<EnderIO:itemAlloy:7>);
 
 
 // ================================================================================
@@ -105,14 +106,27 @@ recipes.removeShaped(<TConstruct:ToolForgeBlock>, [[<TConstruct:Smeltery:2>, <TC
 // ================================================================================
 //#MARKER ADD
 
+furnace.addRecipe(<minecraft:coal:0>, <minecraft:coal:1>, 0.5);
+furnace.addRecipe(<EnderIO:itemMaterial>, <appliedenergistics2:item.ItemMultiMaterial:3>, 0.5);
+furnace.addRecipe(<EnderIO:itemMaterial>, <appliedenergistics2:item.ItemMultiMaterial:2>, 0.5);
+
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<minecraft:nether_star> * 9, [<ore:blockNetherStar>]);
 recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:3>, [[<technom:itemMaterial:2>.reuse(), <ore:gemQuartz>, <technom:itemMaterial:2>.reuse()]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:2>, [[<technom:itemMaterial:2>.reuse(), <ore:crystalCertusQuartz>, <technom:itemMaterial:2>.reuse()]]);
+recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemMaterial:2>.reuse(), <minecraft:coal>, <technom:itemMaterial:2>.reuse()]]);
+recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemMaterial:2>.reuse(), <minecraft:coal:1>, <technom:itemMaterial:2>.reuse()]]);
+
+recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemBO:1>.reuse(), <minecraft:coal>, <technom:itemBO:1>.reuse()]]);
+recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemBO:1>.reuse(), <minecraft:coal:1>, <technom:itemBO:1>.reuse()]]);
+
+recipes.addShaped(<witchery:ingredient:150>, [[<ore:gemBlueTopaz>, <arsmagica2:itemOre:5>, <arsmagica2:itemOre:5>], [<ore:netherMaterial>, <ore:gemCoralium>, <minecraft:soul_sand>], [<ore:gemBlueTopaz>, <ore:gemBlueTopaz>, <ore:gemBlueTopaz>]]);
 recipes.addShaped(<EnderIO:itemAlloy:7> * 3, [[<ore:soulSand>, <TwilightForest:item.ironwoodIngot>, <ore:soulSand>], [<EnderIO:itemAlloy:1>, <arsmagica2:essence:8>, <EnderIO:itemAlloy:1>], [<minecraft:soul_sand>, <TwilightForest:item.ironwoodIngot>, <ore:soulSand>]]);
-recipes.addShaped(<EnderIO:itemAlloy> * 3, [[<EnderIO:itemPowderIngot>, <ore:crystalChargedCertusQuartz>, <EnderIO:itemPowderIngot>], [<EnderIO:itemAlloy:4>, <EnderIO:itemAlloy:4>, <EnderIO:itemAlloy:4>], [<EnderIO:itemPowderIngot>, <appliedenergistics2:item.ItemMultiMaterial:1>, <EnderIO:itemPowderIngot>]]);
 recipes.addShaped(<EnderIO:itemAlloy:2> * 3, [[<ore:pearlEnder>, <ore:pearlEnder>, <ore:pearlEnder>], [<EnderIO:itemAlloy:1>, <ChromatiCraft:chromaticraft_item_tiered>, <EnderIO:itemAlloy:1>], [<ore:pearlEnder>, <ore:pearlEnder>, <ore:pearlEnder>]]);
 recipes.addShaped(<EnderIO:itemAlloy:1> * 3, [[<minecraft:redstone>, <ore:dustGlowstone>, <minecraft:redstone>], [<Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>], [<minecraft:gold_ingot>, <ore:dustGlowstone>, <minecraft:gold_ingot>]]);
 recipes.addShaped(<EnderIO:itemAlloy:5> * 3, [[<arsmagica2:itemOre>, <ore:ingotIron>, <arsmagica2:itemOre>], [<ore:ingotIron>, <ore:pearlEnder>, <ore:ingotIron>], [<arsmagica2:itemOre>, <ore:ingotIron>, <arsmagica2:itemOre>]]);
@@ -128,8 +142,6 @@ recipes.addShaped(<magicalcrops:magicalcrops_EssenceIngots:2> * 3, [[<RandomThin
 recipes.addShaped(<magicalcrops:magicalcrops_EssenceIngots> * 3, [[<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_2AccioEssence>, <RandomThings:ingredient:4>], [<magicalcrops:magicalcrops_2AccioEssence>, <BiomesOPlenty:gems:3>, <magicalcrops:magicalcrops_2AccioEssence>], [<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_2AccioEssence>, <RandomThings:ingredient:4>]]);
 recipes.addShaped(<magicalcrops:magicalcrops_EssenceIngots:3> * 3, [[<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_5ZivicioEssence>, <RandomThings:ingredient:4>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <BiomesOPlenty:gems>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_5ZivicioEssence>, <RandomThings:ingredient:4>]]);
 recipes.addShaped(<evilcraft:poisonSac>, [[null, <minecraft:fermented_spider_eye>, null], [<ore:dyeBlack>, <evilcraft:bloodOrb:1>, <ore:dyeBlack>], [null, <minecraft:fermented_spider_eye>, null]]);
-recipes.addShaped(<battlegear2:chain> * 6, [[<ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:iron_ingot>]]);
-recipes.addShaped(<battlegear2:chain> * 3, [[<ore:ingotIron>, null], [null, <ore:ingotIron>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:3>, [[<technom:itemBO:1>.reuse(), <ore:gemQuartz>, <technom:itemBO:1>.reuse()]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:2>, [[<technom:itemBO:1>.reuse(), <ore:crystalCertusQuartz>, <technom:itemBO:1>.reuse()]]);
 recipes.addShaped(<minecraft:end_portal_frame>, [[<magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>], [<magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>], [<magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>]]);
