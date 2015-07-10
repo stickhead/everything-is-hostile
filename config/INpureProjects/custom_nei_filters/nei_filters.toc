@@ -2,15 +2,17 @@
 ## Author: denoflionsx
 ## Version: 1.0
 ## Bootstrap: Bootstrap.js
-## Saved Variables: vanilla_enabled, ThermalExpansion_enabled, Mekanism_enabled, ForgeMicroblock_enabled, ExtraUtilities_enabled, BuildCraft_enabled, Bibliocraft_enabled, AE2_enabled, Tcon_enabled, MFR_enabled
+## Saved Variables: vanilla_enabled, ForgeMicroblock_enabled, ExtraUtilities_enabled, Bibliocraft_enabled, AE2_enabled, Tcon_enabled, CarpentersBlocks_enabled, Botania_enabled, Mantle_enabled, TwilightForest_enabled, Natura_enabled, OpenBlocks_enabled, EnderIO_enabled
 vanilla.js
-ThermalExpansion.js
-Mekanism.js
 ForgeMicroblock.js
 ExtraUtilities.js
-BuildCraft.js
 Bibliocraft.js
 AppliedEnergistics2.js
 Tcon.js
-Buildcraft_Additions.js
-MFR.js
+CarpentersBlocks.js
+Botania.js
+Mantle.js
+TwilightForest.js
+Natura.js
+OpenBlocks.js
+EnderIO.js
