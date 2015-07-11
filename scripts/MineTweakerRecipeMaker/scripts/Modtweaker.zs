@@ -4,8 +4,8 @@ mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
 mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <Thaumcraft:ItemResource:2>, 1);
 
 //Franken Skull
-mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:2>, <EnderIO:itemFrankenSkull:1>, 5000);
-mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:4>, <EnderIO:itemFrankenSkull:3>, 10000);
+mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:2>, <EnderIO:itemFrankenSkull:1>, 10000);
+mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:4>, <EnderIO:itemFrankenSkull:3>, 15000);
 
 
 //Copper Wandcaps Require copper ingots and mana steel
