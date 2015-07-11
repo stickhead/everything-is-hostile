@@ -1,3 +1,4 @@
+
 //Modtweaker Tweaks
 //Mana steel is cheaper with thaumium
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
