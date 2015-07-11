@@ -59,10 +59,6 @@ myAM2Common.add(<arsmagica2:vinteumOre:2>);
 myAM2Common.add(<arsmagica2:vinteumOre>);
 myAM2Common.add(<arsmagica2:vinteumOre:1>);
 
-val myAM2Rare = <ore:myAM2Rare>
-myAM2Rare.add(<arsmagica2:vinteumOre:3>);
-myAM2Rare.add(<arsmagica2:vinteumOre:4>);
-
 val myOres = <ore:myOres>
 myOres.add(<TConstruct:SearedBrick:3>);
 myOres.add(<TConstruct:SearedBrick:5>);
@@ -80,3 +76,12 @@ mods.bloodmagic.FallingTower.addFocus(<minecraft:stone>, 20 "oreCoal, 150, oreAp
 mods.bloodmagic.FallingTower.addFocus(<minecraft:iron_block>, 12 "oreCertusQuartz, 80, oreIron, 400, oreGold, 30, oreCopper, 200, oreTin, 140, oreSilver, 30, oreLapis, 60, oreRedstone, 100, mcOres, 150, myAM2Common, 20, myThaumcraft, 40, myOres, 90");
 mods.bloodmagic.FallingTower.addFocus(<minecraft:diamond>, 10 "oreCertusQuartz, 150, oreDiamond, 100, oreEmerald, 75, oreCinnabar, 50, oreAmber, 50, mcOres, , myAM2Common, 20, myThaumcraft, 20, myOres, 20");
 mods.bloodmagic.FallingTower.addFocus(<minecraft:nether_star>, 5 "oreDiamond, 150, oreEmerald, 100, oreQuartz, 250, oreSunstone, 5, oreMoonstone, 50");
+
+//Add Minicio ore to orechid
+mods.botania.Orechid.addOre(<magicalcrops:magicalcrops_MinicioOre>, 20000);
+mods.botania.Orechid.addOre(<evilcraft:darkOre>, 10000);
+mods.botania.Orechid.addOre(<ChromatiCraft:chromaticraft_block_tieredore>, 10000);
+mods.botania.Orechid.addOre(<ChromatiCraft:chromaticraft_block_tieredore:1>, 5000);
+mods.botania.Orechid.addOre(<ChromatiCraft:chromaticraft_block_tieredore:2>, 5000);
+mods.botania.Orechid.addOre(<ChromatiCraft:chromaticraft_block_tieredore:3>, 5000);
+mods.botania.Orechid.addOre(<ChromatiCraft:chromaticraft_block_tieredore:4>, 2000);
