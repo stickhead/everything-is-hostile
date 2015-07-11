@@ -1,0 +1,32 @@
+{
+    "essenceore": {
+        "template": "uniform",
+        "block": "magicalcrops:magicalcrops_MinicioOre",
+        "clusterSize": 4,
+        "numClusters": 2,
+        "minHeight": 6,
+        "maxHeight": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "netheressenceore": {
+        "template": "uniform",
+        "block": "magicalcrops:magicalcrops_MinicioOreNether",
+        "clusterSize": 4,
+        "numClusters": 2,
+        "minHeight": 6,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    }  
+}
