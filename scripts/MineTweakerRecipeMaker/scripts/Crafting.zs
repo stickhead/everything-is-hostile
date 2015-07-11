@@ -12,6 +12,9 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<EnderIO:itemFrankenSkull:3>);
+recipes.remove(<EnderIO:itemFrankenSkull:4>);
+recipes.remove(<EnderIO:blockWirelessCharger>);
 recipes.remove(<minecraft:nether_star>);
 recipes.remove(<EnderIO:itemGliderWing>);
 recipes.remove(<EnderIO:itemGliderWing>);
@@ -117,6 +120,7 @@ recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<EnderIO:blockWirelessCharger>, [[null, <ore:ingotElectricalSteel>, null], [<ore:ingotElectricalSteel>, <EnderIO:itemBasicCapacitor:2>, <ore:ingotElectricalSteel>], [<EnderIO:itemAlloy>, <ExtraUtilities:decorativeBlock1:11>, <ore:ingotElectricalSteel>]]);
 recipes.addShaped(<EnderIO:itemAlloy:6>, [[<ore:dustObsidian>, <ore:dustCoal>, <ore:dustObsidian>], [<ore:dustCoal>, <ore:ingotElectricalSteel>, <ore:dustCoal>], [<ore:dustObsidian>, <ore:dustCoal>, <ore:dustObsidian>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:3>, [[<technom:itemMaterial:2>.reuse(), <ore:gemQuartz>, <technom:itemMaterial:2>.reuse()]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:2>, [[<technom:itemMaterial:2>.reuse(), <ore:crystalCertusQuartz>, <technom:itemMaterial:2>.reuse()]]);
