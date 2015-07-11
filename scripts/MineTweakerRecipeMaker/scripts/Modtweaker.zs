@@ -1,11 +1,11 @@
 //Modtweaker Tweaks
 //Mana steel is cheaper with thaumium
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <Thaumcraft:ItemResource:2>, 1);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <Thaumcraft:ItemResource:2>, 1000);
 
 //Franken Skull
-mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:2>, <EnderIO:itemFrankenSkull:1>, 10000);
-mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:4>, <EnderIO:itemFrankenSkull:3>, 15000);
+mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:2>, <EnderIO:itemFrankenSkull:1>, 100000);
+mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:4>, <EnderIO:itemFrankenSkull:3>, 150000);
 
 
 //Copper Wandcaps Require copper ingots and mana steel
