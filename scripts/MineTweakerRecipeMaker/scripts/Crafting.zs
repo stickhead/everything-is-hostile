@@ -115,7 +115,7 @@ recipes.removeShaped(<TConstruct:ToolForgeBlock>, [[<TConstruct:Smeltery:2>, <TC
 furnace.addRecipe(<minecraft:coal:0>, <minecraft:coal:1>, 0.5);
 furnace.addRecipe(<EnderIO:itemMaterial>, <appliedenergistics2:item.ItemMultiMaterial:3>, 0.5);
 furnace.addRecipe(<EnderIO:itemMaterial>, <appliedenergistics2:item.ItemMultiMaterial:2>, 0.5);
-furnace.addRecipe(<EnderIO:blockFusedQuartz>>, <minecraft:quartz_block>, 0.5);
+furnace.addRecipe(<EnderIO:blockFusedQuartz >, <minecraft:quartz_block>, 0.5);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
