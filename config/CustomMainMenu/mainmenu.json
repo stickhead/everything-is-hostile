@@ -1,0 +1,138 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "0",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 0,
+            "height" : 0,
+            "alignment" : "center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -200,
+            "posY" : 115,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -200,
+            "posY" : 142,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 75,
+            "posY" : 115,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 75,
+            "posY" : 142,
+            "width" : 120,
+            "height" : 20,
+			"hoverText" : "Are you sure?",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : 45,
+            "posY" : 160,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -70,
+            "posY" : 160,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+        
+        
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 160,
+            "posY" : 103,
+            "color" : 4251856,
+            "alignment" : "top_center",
+            "file" : "texts/splashes.txt"
+        },
+        
+    
+        "background":
+        {
+            "image" : "minecraft:title.png",
+            "mode" : "stretch"
+        }
+    
+        
+    }
+}
