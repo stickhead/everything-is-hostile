@@ -117,6 +117,7 @@ recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<EnderIO:itemAlloy:6>, [[<ore:dustObsidian>, <ore:dustCoal>, <ore:dustObsidian>], [<ore:dustCoal>, <ore:ingotElectricalSteel>, <ore:dustCoal>], [<ore:dustObsidian>, <ore:dustCoal>, <ore:dustObsidian>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:3>, [[<technom:itemMaterial:2>.reuse(), <ore:gemQuartz>, <technom:itemMaterial:2>.reuse()]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:2>, [[<technom:itemMaterial:2>.reuse(), <ore:crystalCertusQuartz>, <technom:itemMaterial:2>.reuse()]]);
 recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemMaterial:2>.reuse(), <minecraft:coal>, <technom:itemMaterial:2>.reuse()]]);
