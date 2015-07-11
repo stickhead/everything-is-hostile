@@ -109,9 +109,13 @@ recipes.removeShaped(<TConstruct:ToolForgeBlock>, [[<TConstruct:Smeltery:2>, <TC
 // ================================================================================
 //#MARKER ADD
 
+
+// ===============================================================================
+//#MARKER ADD FURNACE
 furnace.addRecipe(<minecraft:coal:0>, <minecraft:coal:1>, 0.5);
 furnace.addRecipe(<EnderIO:itemMaterial>, <appliedenergistics2:item.ItemMultiMaterial:3>, 0.5);
 furnace.addRecipe(<EnderIO:itemMaterial>, <appliedenergistics2:item.ItemMultiMaterial:2>, 0.5);
+furnace.addRecipe(<EnderIO:blockFusedQuartz>>, <minecraft:quartz_block>, 0.5);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
@@ -120,6 +124,7 @@ recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<EnderIO:itemFrankenSkull:1>, [[null, <ore:itemSkull>, null], [<ore:ingotSoularium>, <SSR:ssr_soul_shard>, <EnderIO:itemAlloy:7>]]);
 recipes.addShaped(<EnderIO:blockWirelessCharger>, [[null, <ore:ingotElectricalSteel>, null], [<ore:ingotElectricalSteel>, <EnderIO:itemBasicCapacitor:2>, <ore:ingotElectricalSteel>], [<EnderIO:itemAlloy>, <ExtraUtilities:decorativeBlock1:11>, <ore:ingotElectricalSteel>]]);
 recipes.addShaped(<EnderIO:itemAlloy:6>, [[<ore:dustObsidian>, <ore:dustCoal>, <ore:dustObsidian>], [<ore:dustCoal>, <ore:ingotElectricalSteel>, <ore:dustCoal>], [<ore:dustObsidian>, <ore:dustCoal>, <ore:dustObsidian>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:3>, [[<technom:itemMaterial:2>.reuse(), <ore:gemQuartz>, <technom:itemMaterial:2>.reuse()]]);
