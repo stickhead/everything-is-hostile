@@ -1,18 +1,9 @@
 ## Title: custom_nei_filters
 ## Author: denoflionsx
 ## Version: 1.0
-## Bootstrap: Bootstrap.js
-## Saved Variables: vanilla_enabled, ForgeMicroblock_enabled, ExtraUtilities_enabled, Bibliocraft_enabled, AE2_enabled, Tcon_enabled, CarpentersBlocks_enabled, Botania_enabled, Mantle_enabled, TwilightForest_enabled, Natura_enabled, OpenBlocks_enabled, EnderIO_enabled
 vanilla.js
 ForgeMicroblock.js
 ExtraUtilities.js
 Bibliocraft.js
 AppliedEnergistics2.js
 Tcon.js
-CarpentersBlocks.js
-Botania.js
-Mantle.js
-TwilightForest.js
-Natura.js
-OpenBlocks.js
-EnderIO.js
