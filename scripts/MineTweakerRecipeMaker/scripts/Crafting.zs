@@ -115,7 +115,7 @@ recipes.removeShaped(<TConstruct:ToolForgeBlock>, [[<TConstruct:Smeltery:2>, <TC
 furnace.addRecipe(<minecraft:coal:0>, <minecraft:coal:1>, 0.5);
 furnace.addRecipe(<EnderIO:itemMaterial>, <appliedenergistics2:item.ItemMultiMaterial:3>, 0.5);
 furnace.addRecipe(<EnderIO:itemMaterial>, <appliedenergistics2:item.ItemMultiMaterial:2>, 0.5);
-furnace.addRecipe(<EnderIO:blockFusedQuartz>>, <minecraft:quartz_block>, 0.5);
+furnace.addRecipe(<EnderIO:blockFusedQuartz>, <minecraft:quartz_block>, 0.5);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
@@ -124,6 +124,13 @@ recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<EnderIO:itemAlloy:7>, [[null, <ore:dustGlowstone>, null], [null, <ore:ironwood>, null], [<minecraft:soul_sand>, null, <minecraft:soul_sand>]]);
+recipes.addShaped(<EnderIO:itemAlloy:5>, [[null, <ore:dustVinteum>, null], [<RandomThings:ingredient:2>, <ore:ingotIron>, <RandomThings:ingredient:2>]]);
+recipes.addShaped(<EnderIO:itemAlloy:2> * 2, [[<RandomThings:ingredient:2>, null, <RandomThings:ingredient:2>], [<ore:ingotEnergeticAlloy>, <RandomThings:ingredient:2>, <ore:ingotEnergeticAlloy>], [<RandomThings:ingredient:2>, null, <RandomThings:ingredient:2>]]);
+recipes.addShaped(<EnderIO:itemAlloy:1> * 3, [[<ore:ingotElectricalSteel>, <appliedenergistics2:item.ItemMultiMaterial:2>, <EnderIO:itemAlloy>], [<minecraft:glowstone_dust>, <EnderIO:itemAlloy>, <minecraft:glowstone_dust>], [<ore:dustRedstone>, <ore:dustCertusQuartz>, <ore:dustRedstone>]]);
+recipes.addShaped(<EnderIO:itemAlloy:6>, [[null, <ore:dustObsidian>, null], [<ore:dustObsidian>, <ore:ingotElectricalSteel>, <ore:dustObsidian>], [null, <ore:dustObsidian>, null]]);
+recipes.addShaped(<EnderIO:itemAlloy>, [[null, <EnderIO:itemPowderIngot>, null], [<EnderIO:itemPowderIngot>, <EnderIO:itemAlloy:4>, <EnderIO:itemPowderIngot>], [null, <ChromatiCraft:chromaticraft_item_tiered>, null]]);
+recipes.addShaped(<EnderIO:itemAlloy:4>, [[null, <ore:nuggetIron>, null], [<ore:nuggetIron>, <ProjRed|Core:projectred.core.part:40>, <ore:nuggetIron>], [null, <ore:nuggetIron>, null]]);
 recipes.addShaped(<EnderIO:itemFrankenSkull:1>, [[null, <ore:itemSkull>, null], [<ore:ingotSoularium>, <SSR:ssr_soul_shard>, <EnderIO:itemAlloy:7>]]);
 recipes.addShaped(<EnderIO:blockWirelessCharger>, [[null, <ore:ingotElectricalSteel>, null], [<ore:ingotElectricalSteel>, <EnderIO:itemBasicCapacitor:2>, <ore:ingotElectricalSteel>], [<EnderIO:itemAlloy>, <ExtraUtilities:decorativeBlock1:11>, <ore:ingotElectricalSteel>]]);
 recipes.addShaped(<EnderIO:itemAlloy:6>, [[<ore:dustObsidian>, <ore:dustCoal>, <ore:dustObsidian>], [<ore:dustCoal>, <ore:ingotElectricalSteel>, <ore:dustCoal>], [<ore:dustObsidian>, <ore:dustCoal>, <ore:dustObsidian>]]);
@@ -136,12 +143,6 @@ recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemBO:1>.reuse(), <mine
 recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemBO:1>.reuse(), <minecraft:coal:1>, <technom:itemBO:1>.reuse()]]);
 
 recipes.addShaped(<witchery:ingredient:150>, [[<ore:gemBlueTopaz>, <arsmagica2:itemOre:5>, <arsmagica2:itemOre:5>], [<ore:netherMaterial>, <ore:gemCoralium>, <minecraft:soul_sand>], [<ore:gemBlueTopaz>, <ore:gemBlueTopaz>, <ore:gemBlueTopaz>]]);
-recipes.addShaped(<EnderIO:itemAlloy:7> * 3, [[<ore:soulSand>, <TwilightForest:item.ironwoodIngot>, <ore:soulSand>], [<EnderIO:itemAlloy:1>, <arsmagica2:essence:8>, <EnderIO:itemAlloy:1>], [<minecraft:soul_sand>, <TwilightForest:item.ironwoodIngot>, <ore:soulSand>]]);
-recipes.addShaped(<EnderIO:itemAlloy:2> * 3, [[<ore:pearlEnder>, <ore:pearlEnder>, <ore:pearlEnder>], [<EnderIO:itemAlloy:1>, <ChromatiCraft:chromaticraft_item_tiered>, <EnderIO:itemAlloy:1>], [<ore:pearlEnder>, <ore:pearlEnder>, <ore:pearlEnder>]]);
-recipes.addShaped(<EnderIO:itemAlloy:1> * 3, [[<minecraft:redstone>, <ore:dustGlowstone>, <minecraft:redstone>], [<Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>], [<minecraft:gold_ingot>, <ore:dustGlowstone>, <minecraft:gold_ingot>]]);
-recipes.addShaped(<EnderIO:itemAlloy:5> * 3, [[<arsmagica2:itemOre>, <ore:ingotIron>, <arsmagica2:itemOre>], [<ore:ingotIron>, <ore:pearlEnder>, <ore:ingotIron>], [<arsmagica2:itemOre>, <ore:ingotIron>, <arsmagica2:itemOre>]]);
-recipes.addShaped(<EnderIO:itemAlloy:4> * 3, [[<ore:dustRedstone>, <ore:ingotIron>, <ore:dustRedstone>], [null, <ChromatiCraft:chromaticraft_item_tiered>, null], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
-recipes.addShaped(<EnderIO:itemAlloy:3> * 3, [[<minecraft:redstone>, <minecraft:redstone>, <ore:dustRedstone>], [<ore:dustRedstone>, <ore:ingotIron>, <ore:dustRedstone>], [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]]);
 recipes.addShaped(<magicalcrops:magicalcrops_UltimateFurnace>, [[<magicalcrops:magicalcrops_5ZivicioEssence>, <minecraft:nether_star>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_ZivicioFurnace>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>]]);
 recipes.addShaped(<magicalcrops:magicalcrops_ZivicioFurnace>, [[<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_ImperioFurnace>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<EnderIO:blockIngotStorage:2>, <EnderIO:blockIngotStorage:2>, <EnderIO:blockIngotStorage:2>]]);
 recipes.addShaped(<magicalcrops:magicalcrops_ImperioFurnace>, [[<magicalcrops:magicalcrops_4ImperioEssence>, <magicalcrops:magicalcrops_4ImperioEssence>, <magicalcrops:magicalcrops_4ImperioEssence>], [<magicalcrops:magicalcrops_4ImperioEssence>, <magicalcrops:magicalcrops_CrucioFurnace>, <magicalcrops:magicalcrops_4ImperioEssence>], [<minecraft:diamond_block>, <minecraft:diamond_block>, <minecraft:diamond_block>]]);
