@@ -12,6 +12,8 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<EnderIO:itemMaterial:7>);
+recipes.remove(<EnderIO:itemFrankenSkull>);
 recipes.remove(<EnderIO:itemFrankenSkull:3>);
 recipes.remove(<EnderIO:itemFrankenSkull:4>);
 recipes.remove(<EnderIO:blockWirelessCharger>);
@@ -119,11 +121,16 @@ furnace.addRecipe(<EnderIO:blockFusedQuartz>, <minecraft:quartz_block>, 0.5);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<minecraft:glass>, [<EnderIO:blockFusedQuartz:1>]);
+recipes.addShapeless(<EnderIO:blockFusedQuartz:1>, [<ore:blockGlassColorless>]);
 recipes.addShapeless(<minecraft:nether_star> * 9, [<ore:blockNetherStar>]);
 recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<EnderIO:itemFrankenSkull:3>, [[<ore:ingotSoularium>, <SSR:ssr_soul_shard>, <ore:ingotSoularium>], [<ore:itemVibrantCrystal>, <EnderIO:blockEndermanSkull>, <ore:itemVibrantCrystal>], [<ore:ingotSoularium>, <EnderIO:itemAlloy:7>, <ore:ingotSoularium>]]);
+recipes.addShaped(<EnderIO:blockFusedQuartz:3>, [[<minecraft:glowstone_dust>, <EnderIO:blockFusedQuartz:1>, <ore:dustGlowstone>]]);
+recipes.addShaped(<EnderIO:blockFusedQuartz:2>, [[null, <ore:dustGlowstone>, null], [<minecraft:glowstone_dust>, <ore:blockGlassHardened>, <ore:dustGlowstone>], [null, <minecraft:glowstone_dust>, null]]);
 recipes.addShaped(<EnderIO:itemAlloy:7>, [[null, <ore:dustGlowstone>, null], [null, <ore:ironwood>, null], [<minecraft:soul_sand>, null, <minecraft:soul_sand>]]);
 recipes.addShaped(<EnderIO:itemAlloy:5>, [[null, <ore:dustVinteum>, null], [<RandomThings:ingredient:2>, <ore:ingotIron>, <RandomThings:ingredient:2>]]);
 recipes.addShaped(<EnderIO:itemAlloy:2> * 2, [[<RandomThings:ingredient:2>, null, <RandomThings:ingredient:2>], [<ore:ingotEnergeticAlloy>, <RandomThings:ingredient:2>, <ore:ingotEnergeticAlloy>], [<RandomThings:ingredient:2>, null, <RandomThings:ingredient:2>]]);
