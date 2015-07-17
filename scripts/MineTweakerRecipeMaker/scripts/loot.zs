@@ -48,6 +48,19 @@ vanilla.loot.addChestLoot("bonusChest", <aura:AuraCrystal:4>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("bonusChest", <aura:AuraCrystal:5>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("bonusChest", <aura:AuraCrystal:6>.weight(5), 4, 16);
 vanilla.loot.addChestLoot("bonusChest", <aura:AuraCrystal:7>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("bonusChest", <WitchingGadgets:item.WG_Bag:2>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("bonusChest", <WitchingGadgets:item.WG_Baubles>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("bonusChest", <WitchingGadgets:item.WG_Cloak:4>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("bonusChest", <ThaumicExploration:tentacleRing>.weight(3), 1, 1);
+vanilla.loot.addChestLoot("bonusChest", <Thaumcraft:WandCasting:24>.withTag({cap: "iron", rod: "AMBER"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("bonusChest", <Botania:waterRod>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("bonusChest", <Botania:tornadoRod>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("bonusChest", <Botania:dirtRod>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("bonusChest", <TaintedMagic:MagicCroissant>.weight(5), 2, 4);
+vanilla.loot.addChestLoot("bonusChest", <aura:angelJumpAmulet>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("bonusChest", <aura:amuletFood>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("bonusChest", <aura:orangeAmulet>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("bonusChest", <aura:greenAmulet>.weight(1), 1, 1);
 
 
 //Dungeon loot
@@ -163,6 +176,8 @@ vanilla.loot.addChestLoot("dungeonChest", <minecraft:potion:16450>.weight(3), 1,
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:potion:16421>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:potion:16425>.weight(3), 1, 1);
 
+
+
 //mineshaftCorridor
 vanilla.loot.removeChestLoot("mineshaftCorridor", <*>);
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:diamond>.weight(7), 1, 2);
@@ -261,6 +276,21 @@ vanilla.loot.removeChestLoot("pyramidJungleChest", <minecraft:iron_horse_armor>)
 vanilla.loot.removeChestLoot("pyramidJungleChest", <minecraft:diamond_horse_armor>);
 vanilla.loot.removeChestLoot("pyramidJungleChest", <evilcraft:broom>);
 vanilla.loot.removeChestLoot("pyramidJungleChest", <evilcraft:boxOfEternalClosure>);
+vanilla.loot.addChestLoot("pyramidJungleChest", <WitchingGadgets:item.WG_Bag:2>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <WitchingGadgets:item.WG_Baubles>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <WitchingGadgets:item.WG_Cloak:4>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <ThaumicExploration:tentacleRing>.weight(3), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <Thaumcraft:WandCasting:24>.withTag({cap: "iron", rod: "AMBER"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <Botania:waterRod>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <Botania:tornadoRod>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <Botania:dirtRod>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <TaintedMagic:MagicCroissant>.weight(5), 2, 4);
+vanilla.loot.addChestLoot("pyramidJungleChest", <aura:angelJumpAmulet>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <aura:amuletFood>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <aura:orangeAmulet>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <aura:greenAmulet>.weight(1), 1, 1);
+
+
 
 //pyramidJungleDispenser
 vanilla.loot.removeChestLoot("pyramidJungleDispenser", <evilcraft:boxOfEternalClosure>);
@@ -311,6 +341,19 @@ vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:unstableingot:1>
 vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemLootBag>.weight(10), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemLootBag:1>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemLootBag:2>.weight(2), 1, 1);      
+vanilla.loot.addChestLoot("strongholdCorridor", <WitchingGadgets:item.WG_Bag:2>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <WitchingGadgets:item.WG_Baubles>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <WitchingGadgets:item.WG_Cloak:4>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <ThaumicExploration:tentacleRing>.weight(3), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:WandCasting:24>.withTag({cap: "iron", rod: "AMBER"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <Botania:waterRod>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <Botania:tornadoRod>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <Botania:dirtRod>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <TaintedMagic:MagicCroissant>.weight(5), 2, 4);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:angelJumpAmulet>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:amuletFood>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:orangeAmulet>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:greenAmulet>.weight(1), 1, 1);
 
 //strongholdCrossing
 vanilla.loot.removeChestLoot("strongholdCrossing", <evilcraft:broom>);
