@@ -255,4 +255,9 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraBees:misc:26>.weight(20),
 
 
 
-
+//pyramidJungleChest
+vanilla.loot.removeChestLoot("pyramidJungleChest", <minecraft:saddle>);
+vanilla.loot.removeChestLoot("pyramidJungleChest", <minecraft:iron_horse_armor>);
+vanilla.loot.removeChestLoot("pyramidJungleChest", <minecraft:diamond_horse_armor>);
+vanilla.loot.removeChestLoot("pyramidJungleChest", <evilcraft:broom>);
+vanilla.loot.removeChestLoot("pyramidJungleChest", <evilcraft:boxofEternalClosure>);
