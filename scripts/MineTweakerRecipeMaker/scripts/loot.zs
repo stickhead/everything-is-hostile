@@ -261,3 +261,30 @@ vanilla.loot.removeChestLoot("pyramidJungleChest", <minecraft:iron_horse_armor>)
 vanilla.loot.removeChestLoot("pyramidJungleChest", <minecraft:diamond_horse_armor>);
 vanilla.loot.removeChestLoot("pyramidJungleChest", <evilcraft:broom>);
 vanilla.loot.removeChestLoot("pyramidJungleChest", <evilcraft:boxofEternalClosure>);
+
+//pyramidJungleDispenser
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <evilcraft:boxofEternalClosure>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <evilcraft:broom>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:0>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:1>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:2>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:3>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:4>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:5>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:6>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:7>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:8>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:9>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:10>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:11>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:12>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:13>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:14>);
+vanilla.loot.removeChestLoot("pyramidJungleDispenser", <ChromatiCraft:chromaticraft_item_shard:15>);
+vanilla.loot.addChestLoot("pyramidJungleDispenser", <chocolateQuest:bullet:3>.weight(10), 2, 4);
+vanilla.loot.addChestLoot("pyramidJungleDispenser", <evilcraft:redstoneGrenade>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleDispenser", <evilcraft:lightningGrenade>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleDispenser", <witchery:sungrenade>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleDispenser", <xreliquary:holy_hand_grenade>.weight(1), 1, 1);
+
+
