@@ -311,3 +311,36 @@ vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:unstableingot:1>
 vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemLootBag>.weight(10), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemLootBag:1>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemLootBag:2>.weight(2), 1, 1);      
+
+//strongholdCrossing
+vanilla.loot.removeChestLoot("strongholdCrossing", <evilcraft:broom>);
+vanilla.loot.removeChestLoot("strongholdCrossing", <evilcraft:boxofEternalClosure>);
+
+//strongholdLibrary
+vanilla.loot.removeChestLoot("strongholdLibrary", <evilcraft:broom>);
+vanilla.loot.removeChestLoot("strongholdLibrary", <evilcraft:boxofEternalClosure>);
+
+//villageBlacksmith
+vanilla.loot.removeChestLoot("villageBlacksmith", <minecraft:saddle>);
+vanilla.loot.removeChestLoot("villageBlacksmith", <minecraft:iron_horse_armor>);
+vanilla.loot.removeChestLoot("villageBlacksmith", <minecraft:diamond_horse_armor>);
+vanilla.loot.removeChestLoot("villageBlacksmith", <evilcraft:broom>);
+vanilla.loot.removeChestLoot("villageBlacksmith", <EnderIO:item.darkSteel_boots>);
+vanilla.loot.addChestLoot("mineshaftCorridor", <aura:ingotAngelSteel:2>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("villageBlacksmith", <aura:AuraCrystal>.weight(5), 4, 8);
+vanilla.loot.addChestLoot("villageBlacksmith", <aura:AuraCrystal:1>.weight(5), 2, 8);
+vanilla.loot.addChestLoot("villageBlacksmith", <aura:AuraCrystal:2>.weight(5), 2, 8);
+vanilla.loot.addChestLoot("villageBlacksmith", <aura:AuraCrystal:3>.weight(5), 2, 8);
+vanilla.loot.addChestLoot("villageBlacksmith", <aura:AuraCrystal:4>.weight(5), 2, 8);
+vanilla.loot.addChestLoot("villageBlacksmith", <aura:AuraCrystal:5>.weight(5), 2, 8);
+vanilla.loot.addChestLoot("villageBlacksmith", <aura:AuraCrystal:6>.weight(5), 2, 8);
+vanilla.loot.addChestLoot("villageBlacksmith", <aura:AuraCrystal:7>.weight(5), 2, 8);
+vanilla.loot.addChestLoot("mineshaftCorridor", <aura:ingotAngelSteel:2>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("mineshaftCorridor", <Thaumcraft:ItemResource:2>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("mineshaftCorridor", <TConstruct:materials>.weight(20), 1, 3);
+vanilla.loot.addChestLoot("mineshaftCorridor", <TConstruct:materials:5>.weight(5), 1, 3);
+vanilla.loot.addChestLoot("mineshaftCorridor", <TConstruct:materials:6>.weight(20), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:obsidian>.weight(25), 1, 3);
+vanilla.loot.addChestLoot("mineshaftCorridor", <TConstruct:materials:11>.weight(25), 1, 3);
+
+
