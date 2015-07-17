@@ -288,3 +288,26 @@ vanilla.loot.addChestLoot("pyramidJungleDispenser", <witchery:sungrenade>.weight
 vanilla.loot.addChestLoot("pyramidJungleDispenser", <xreliquary:holy_hand_grenade>.weight(1), 1, 1);
 
 
+//strongholdCorridor
+vanilla.loot.removeChestLoot("strongholdCorridor", <minecraft:saddle>);
+vanilla.loot.removeChestLoot("strongholdCorridor", <minecraft:iron_horse_armor>);
+vanilla.loot.removeChestLoot("strongholdCorridor", <minecraft:diamond_horse_armor>);
+vanilla.loot.removeChestLoot("strongholdCorridor", <evilcraft:broom>);
+vanilla.loot.removeChestLoot("strongholdCorridor", <evilcraft:boxofEternalClosure>);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:AuraCrystal>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:AuraCrystal:1>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:AuraCrystal:2>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:AuraCrystal:3>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:AuraCrystal:4>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:AuraCrystal:5>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:AuraCrystal:6>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:AuraCrystal:7>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("strongholdCorridor", <EnderIO:itemAlloy:6>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCorridor", <EnderIO:itemAlloy:7>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCorridor", <minecraft:quartz>.weight(15), 4, 8);
+vanilla.loot.addChestLoot("strongholdCorridor", <minecraft:nether_wart>.weight(8), 1, 4);
+vanilla.loot.addChestLoot("strongholdCorridor", <aura:ingotAngelSteel:2>.weight(5), 1, 3);
+vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:unstableingot:1>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemLootBag>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemLootBag:1>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <Thaumcraft:ItemLootBag:2>.weight(2), 1, 1);      
