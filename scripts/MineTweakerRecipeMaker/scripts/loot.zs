@@ -173,9 +173,6 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:coal>.weight(20), 12, 
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:melon_seeds>.weight(10), 2, 4);
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:enchanted_book>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:coal>.weight(20), 12, 16);
-vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:coal>.weight(20), 12, 16);
-vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:coal>.weight(20), 12, 16);
-vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:coal>.weight(20), 12, 16);
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:golden_apple>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:enchanted_book>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <abyssalcraft:abyingot>.weight(1), 1, 3);
@@ -229,3 +226,33 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:diamond_pickaxe>.weigh
 vanilla.loot.addChestLoot("mineshaftCorridor", <aura:angelsteelPickaxe0>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <abyssalcraft:apick>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Thaumcraft:ItemPickThaumium>.weight(1), 1, 1);
+
+//pyramidDesertyChest
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <minecraft:saddle>);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <minecraft:iron_horse_armor>);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <minecraft:diamond_horse_armor>);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <evilcraft:broom>);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <evilcraft:boxofEternalClosure>);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <aura:AuraCrystal>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <aura:AuraCrystal:1>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <aura:AuraCrystal:2>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <aura:AuraCrystal:3>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <aura:AuraCrystal:4>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <aura:AuraCrystal:5>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <aura:AuraCrystal:6>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <aura:AuraCrystal:7>.weight(5), 4, 16);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <minecraft:coal>.weight(20), 12, 16);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <Extrautilities:usntableingot:1>.weight(4), 2, 3);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <abyssalcraft:cschovel>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <minecraft:soul_sand>.weight(5), 2, 4);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_tiered>.weight(5), 1, 5);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <TConstruct:jerky:5>.weight(20), 2, 4);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <EnderIO:itemMaterial>.weight(15), 2, 6);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <appliedenergistics2:item.ItemMultiMaterial:8>.weight(10), 4, 8);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <appliedenergistics2:item.ItemMultiMaterial:3>.weight(20), 4, 8);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <appliedenergistics2:item.ItemMultiMaterial:2>.weight(20), 4, 8);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraBees:misc:26>.weight(20), 12, 16);
+
+
+
+
