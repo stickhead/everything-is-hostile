@@ -128,6 +128,9 @@ recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<TConstruct:ore.berries.one:10>, [[<minecraft:clay_ball>, null, <minecraft:clay_ball>], [null, <TConstruct:ore.berries.one:8>, null], [<minecraft:clay_ball>, null, <minecraft:clay_ball>]]);
+recipes.addShaped(<TConstruct:ore.berries.one:11>, [[null, <minecraft:clay_ball>, null], [<minecraft:clay_ball>, <TConstruct:ore.berries.one:8>, <minecraft:clay_ball>], [null, <minecraft:clay_ball>, null]]);
+recipes.addShaped(<TConstruct:ore.berries.one:8>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<ore:nuggetIron>, <minecraft:double_plant:4>, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
 recipes.addShaped(<EnderIO:itemFrankenSkull:3>, [[<ore:ingotSoularium>, <SSR:ssr_soul_shard>, <ore:ingotSoularium>], [<ore:itemVibrantCrystal>, <EnderIO:blockEndermanSkull>, <ore:itemVibrantCrystal>], [<ore:ingotSoularium>, <EnderIO:itemAlloy:7>, <ore:ingotSoularium>]]);
 recipes.addShaped(<EnderIO:blockFusedQuartz:3>, [[<minecraft:glowstone_dust>, <EnderIO:blockFusedQuartz:1>, <ore:dustGlowstone>]]);
 recipes.addShaped(<EnderIO:blockFusedQuartz:2>, [[null, <ore:dustGlowstone>, null], [<minecraft:glowstone_dust>, <ore:blockGlassHardened>, <ore:dustGlowstone>], [null, <minecraft:glowstone_dust>, null]]);

@@ -2,33 +2,26 @@
 //Modtweaker Tweaks
 //Mana steel is cheaper with thaumium
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <Thaumcraft:ItemResource:2>, 1000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <Thaumcraft:ItemResource:2>, 750);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <aura:ingotAngelSteel>, 1000);
+mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <minecraft:iron_ingot>, 20000);
+
+mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:item.ItemMultiMaterial:10>, <appliedenergistics2:item.ItemCrystalSeed>.withTag({progress:0}), 500);
+mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:item.ItemMultiMaterial:11>, <appliedenergistics2:item.ItemCrystalSeed:600>.withTag({progress:600}), 500);
+mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:item.ItemMultiMaterial:12>, <appliedenergistics2:item.ItemCrystalSeed:1200>.withTag({progress:1200}), 500);
 
 //Franken Skull
-mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:2>, <EnderIO:itemFrankenSkull:1>, 100000);
-mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:4>, <EnderIO:itemFrankenSkull:3>, 150000);
-
-
-//Copper Wandcaps Require copper ingots and mana steel
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:3>);
-mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:WandCap:3>, "ignis 2, aee 2, ordo 2", 
-[[<ore:nuggetCopper>, <ore:ingotManasteel>, <ore:nuggetCopper>], 
-[<ore:nuggetCopper>, null, <ore:nuggetCopper>]]);
-
-
-//Gold Wandcaps Require gold essence and manasteel ingots and balance shard
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:WandCap:1>);
-mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:WandCap:1>, "ignis 3, aer 3, ordo 3",
-[[<magicalcrops:magicalcrops_GoldEssence>, <ore:ingotManasteel>,
-<magicalcrops:magicalcrops_GoldEssence>], [<magicalcrops:magicalcrops_GoldEssence>,
-null, <magicalcrops:magicalcrops_GoldEssence>], [null, <Thaumcraft:ItemShard:6>, null]]
-);
-
+mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:2>, <EnderIO:itemFrankenSkull:1>, 10000);
+mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:4>, <EnderIO:itemFrankenSkull:3>, 15000);
 
 mods.thaumcraft.Crucible.removeRecipe(<ForbiddenMagic:UmbralBush>);
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <ForbiddenMagic:UmbralBush>, <Botania:flower:15>, "tenebrae 8, victus 5");
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <EnderIO:itemFrankenSkull:2>, <EnderIO:itemFrankenSkull:1>, "tenebrae 12, potentia 25");
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <EnderIO:itemFrankenSkull:4>, <EnderIO:itemFrankenSkull:3>, "tenebrae 12, potentia 25, alienis 8");
+
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <appliedenergistics2:item.ItemMultiMaterial:10>, <appliedenergistics2:item.ItemCrystalSeed>.withTag({progress:0}), "potentia 4");
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <appliedenergistics2:item.ItemMultiMaterial:11>, <appliedenergistics2:item.ItemCrystalSeed:600>.withTag({progress:600}), "potentia 4");
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <appliedenergistics2:item.ItemMultiMaterial:12>, <appliedenergistics2:item.ItemCrystalSeed:1200>.withTag({progress:1200}), "potentia 4");
 
 //blood orb
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
@@ -43,6 +36,10 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:magicianBloodOrb>, <witchery:ingred
 
 mods.bloodmagic.Altar.addRecipe(<EnderIO:itemFrankenSkull:2>, <EnderIO:itemFrankenSkull:1>, 2, 5000, 50, 50);
 mods.bloodmagic.Altar.addRecipe(<EnderIO:itemFrankenSkull:4>, <EnderIO:itemFrankenSkull:3>, 3, 10000, 50, 50);
+
+mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:10>, <appliedenergistics2:item.ItemCrystalSeed>.withTag({progress:0}), 1, 250, 50, 50);
+mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:11>, <appliedenergistics2:item.ItemCrystalSeed:600>.withTag({progress:600}), 1, 250, 50, 50);
+mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:12>, <appliedenergistics2:item.ItemCrystalSeed:1200>.withTag({progress:1200}), 1, 250, 50, 50);
 
 //Mark of the Falling tower Additions
 //Ore Dictionary 
