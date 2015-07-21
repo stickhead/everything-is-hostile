@@ -80,7 +80,6 @@ recipes.remove(<ExtraUtilities:decorativeBlock1:1> * 4);
 recipes.remove(<ExtraUtilities:enderQuarry>);
 recipes.remove(<ExtraUtilities:enderQuarryUpgrade:8>);
 recipes.remove(<ExtraUtilities:enderQuarryUpgrade:7>);
-recipes.remove(<Thaumcraft:WandCap>);
 recipes.remove(<TConstruct:CraftingSlab:5>);
 recipes.remove(<JABBA:moverDiamond>);
 recipes.remove(<TConstruct:Smeltery>);
