@@ -128,6 +128,8 @@ recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<BiomesOPlenty:logs3:3> * 16, [[<ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>], [<ore:dyeWhite>, <minecraft:yellow_flower>, <ore:dyeWhite>], [<ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>]]);
+recipes.addShaped(<BiomesOPlenty:logs3:3> * 16, [[<ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>], [<ore:dyeWhite>, <minecraft:red_flower>, <ore:dyeWhite>], [<ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>]]);
 recipes.addShaped(<TConstruct:ore.berries.one:10>, [[<minecraft:clay_ball>, null, <minecraft:clay_ball>], [null, <TConstruct:ore.berries.one:8>, null], [<minecraft:clay_ball>, null, <minecraft:clay_ball>]]);
 recipes.addShaped(<TConstruct:ore.berries.one:11>, [[null, <minecraft:clay_ball>, null], [<minecraft:clay_ball>, <TConstruct:ore.berries.one:8>, <minecraft:clay_ball>], [null, <minecraft:clay_ball>, null]]);
 recipes.addShaped(<TConstruct:ore.berries.one:8>, [[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>], [<ore:nuggetIron>, <minecraft:double_plant:4>, <ore:nuggetIron>], [<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
