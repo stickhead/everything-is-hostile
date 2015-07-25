@@ -22,6 +22,7 @@ if (FML.isModLoaded("EnderIO")) {
     NEI.hide("EnderIO:blockSpawnGuard");
 	NEI.hide("EnderIO:blockPoweredSpawner");
     NEI.hide("EnderIO:blockSoulBinder");
+    NEI.hide("EnderIO:blockTransceiver");
 	NEI.hide("EnderIO:blockPowerMonitor");
     NEI.hide("EnderIO:blockFarmStation");
     NEI.hide("EnderIO:blockCrafter");
