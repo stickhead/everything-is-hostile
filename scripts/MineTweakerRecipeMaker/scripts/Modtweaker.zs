@@ -6,9 +6,12 @@ mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <Thaumcraft:ItemRe
 mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <aura:ingotAngelSteel>, 1000);
 mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <minecraft:iron_ingot>, 20000);
 
+
 mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:item.ItemMultiMaterial:10>, <appliedenergistics2:item.ItemCrystalSeed>.withTag({progress:0}), 500);
 mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:item.ItemMultiMaterial:11>, <appliedenergistics2:item.ItemCrystalSeed:600>.withTag({progress:600}), 500);
 mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:item.ItemMultiMaterial:12>, <appliedenergistics2:item.ItemCrystalSeed:1200>.withTag({progress:1200}), 500);
+
+mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial>, 500);
 
 //Franken Skull
 mods.botania.ManaInfusion.addInfusion(<EnderIO:itemFrankenSkull:2>, <EnderIO:itemFrankenSkull:1>, 10000);
@@ -40,6 +43,8 @@ mods.bloodmagic.Altar.addRecipe(<EnderIO:itemFrankenSkull:4>, <EnderIO:itemFrank
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:10>, <appliedenergistics2:item.ItemCrystalSeed>.withTag({progress:0}), 1, 250, 50, 50);
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:11>, <appliedenergistics2:item.ItemCrystalSeed:600>.withTag({progress:600}), 1, 250, 50, 50);
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:12>, <appliedenergistics2:item.ItemCrystalSeed:1200>.withTag({progress:1200}), 1, 250, 50, 50);
+
+mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial>, 1, 100, 50, 50);
 
 //Mark of the Falling tower Additions
 //Ore Dictionary 
@@ -83,3 +88,18 @@ mods.botania.Orechid.addOre(<ore:ChromatiCraft:chromaticraft_block_tieredore:1>,
 mods.botania.Orechid.addOre(<ore:ChromatiCraft:chromaticraft_block_tieredore:2>, 5000);
 mods.botania.Orechid.addOre(<ore:ChromatiCraft:chromaticraft_block_tieredore:3>, 5000);
 mods.botania.Orechid.addOre(<ore:ChromatiCraft:chromaticraft_block_tieredore:4>, 2000);
+
+
+
+//Thaumcraft
+
+//nether star infusion recipe mods.thaumcraft.Infusion.addRecipe("INFUSION", <AWWayofTime:demonBloodShard>, [<Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:6>], "superbia 4, lux 16, alienis 4", <minecraft:nether_star>, 1);
+
+//gaia spirit infusion recipe 
+mods.thaumcraft.Infusion.addRecipe("INFUSION", <AWWayofTime:demonBloodShard>, [<Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>, <Thaumcraft:ItemWispEssence>], "superbia 4, herba 64, lux 32", <Botania:manaResource:5>, 1); 
+
+//Making obsidian totems in the crucible 
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <ForbiddenMagic:UmbralBush>, <Botania:flower:15>, "tenebrae 8, victus 5"); //allow botania black flower instead of rose bush for umbral rose bush 
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockCosmeticSolid>, <Thaumcraft:blockCosmeticSolid:1>, "exanimis 8, auram 8, alienis 10"); mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockCosmeticSolid:12>, <minecraft:stonebrick>, "exanimis 8, auram 8, alienis 10");
+
+mods.thaumcraft.Infusion.addRecipe("INFUSION",<EnderIO:itemMachinePart>, [<EnderIO:itemFrankenSkull:4>,<witchery:ingredient:10>, <EnderStorage:enderChest>, <EnderIO:itemMaterial:6>, <Thaumcraft:ItemResource:16>, <Mystcraft:unlinkedbook>, <Botania:manaResource:14>], "alienis 32, potentia 64, machina 32", <EnderIO:blockTransceiver>, 1);
