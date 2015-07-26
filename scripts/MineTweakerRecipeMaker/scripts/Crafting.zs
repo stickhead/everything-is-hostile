@@ -171,6 +171,7 @@ recipes.addShapeless(<minecraft:paper> * 4, [<TConstruct:materials>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<abyssalcraft:OC>, [[<ore:netherMaterial>, <abyssalcraft:darkstone_cobble>, <ore:netherMaterial>], [<abyssalcraft:darkstone_cobble>, <arsmagica2:essence:3>, <abyssalcraft:darkstone_cobble>], [<ore:netherMaterial>, <abyssalcraft:darkstone_cobble>, <ore:netherMaterial>]]);
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:12>, [[<appliedenergistics2:item.ItemMultiMaterial:24>, <EnderIO:itemMaterial:5>, <appliedenergistics2:item.ItemMultiMaterial:24>], [<Botania:pylon>, <ExtraUtilities:decorativeBlock1:11>, <Botania:pylon>], [<ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:1>]]);
 recipes.addShaped(<minecraft:log:12> * 9, [[<ore:logWood>, <minecraft:log>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <minecraft:log>], [<ore:logWood>, <ore:logWood>, <minecraft:log>]]);
 recipes.addShaped(<minecraft:end_portal_frame>, [[<ore:gaiaIngot>, <magicalcrops:magicalcrops_EndermanEssence>, <ore:ingotVoid>], [<magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>, <magicalcrops:magicalcrops_EndermanEssence>], [<ore:ingotVoid>, <magicalcrops:magicalcrops_EndermanEssence>, <ore:gaiaIngot>]]);
