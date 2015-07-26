@@ -238,13 +238,13 @@ recipes.addShaped(<EnderIO:itemAlloy:4>, [[null, <ore:nuggetIron>, null], [<ore:
 recipes.addShaped(<EnderIO:itemFrankenSkull:1>, [[null, <ore:itemSkull>, null], [<ore:ingotSoularium>, <SSR:ssr_soul_shard>, <EnderIO:itemAlloy:7>]]);
 recipes.addShaped(<EnderIO:blockWirelessCharger>, [[null, <ore:ingotElectricalSteel>, null], [<ore:ingotElectricalSteel>, <EnderIO:itemBasicCapacitor:2>, <ore:ingotElectricalSteel>], [<EnderIO:itemAlloy>, <ExtraUtilities:decorativeBlock1:11>, <ore:ingotElectricalSteel>]]);
 recipes.addShaped(<EnderIO:itemAlloy:6>, [[<ore:dustObsidian>, <ore:dustCoal>, <ore:dustObsidian>], [<ore:dustCoal>, <ore:ingotElectricalSteel>, <ore:dustCoal>], [<ore:dustObsidian>, <ore:dustCoal>, <ore:dustObsidian>]]);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:3>, [[<technom:itemMaterial:2>.reuse(), <ore:gemQuartz>, <technom:itemMaterial:2>.reuse()]]);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:2>, [[<technom:itemMaterial:2>.reuse(), <ore:crystalCertusQuartz>, <technom:itemMaterial:2>.reuse()]]);
-recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemMaterial:2>.reuse(), <minecraft:coal>, <technom:itemMaterial:2>.reuse()]]);
-recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemMaterial:2>.reuse(), <minecraft:coal:1>, <technom:itemMaterial:2>.reuse()]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:3>, [[<technom:itemMaterial:2>.giveBack(), <ore:gemQuartz>, <technom:itemMaterial:2>.giveBack()]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:2>, [[<technom:itemMaterial:2>.giveBack(), <ore:crystalCertusQuartz>, <technom:itemMaterial:2>.giveBack()]]);
+recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemMaterial:2>.giveBack(), <minecraft:coal>, <technom:itemMaterial:2>.giveBack()]]);
+recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemMaterial:2>.giveBack(), <minecraft:coal:1>, <technom:itemMaterial:2>.giveBack()]]);
 
-recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemBO:1>.reuse(), <minecraft:coal>, <technom:itemBO:1>.reuse()]]);
-recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemBO:1>.reuse(), <minecraft:coal:1>, <technom:itemBO:1>.reuse()]]);
+recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemBO:1>.giveBack(), <minecraft:coal>, <technom:itemBO:1>.giveBack()]]);
+recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemBO:1>.giveBack(), <minecraft:coal:1>, <technom:itemBO:1>.giveBack()]]);
 
 recipes.addShaped(<witchery:ingredient:150>, [[<ore:gemBlueTopaz>, <arsmagica2:itemOre:5>, <arsmagica2:itemOre:5>], [<ore:netherMaterial>, <ore:gemCoralium>, <minecraft:soul_sand>], [<ore:gemBlueTopaz>, <ore:gemBlueTopaz>, <ore:gemBlueTopaz>]]);
 recipes.addShaped(<magicalcrops:magicalcrops_UltimateFurnace>, [[<magicalcrops:magicalcrops_5ZivicioEssence>, <minecraft:nether_star>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_ZivicioFurnace>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>]]);
@@ -257,8 +257,8 @@ recipes.addShaped(<magicalcrops:magicalcrops_EssenceIngots:2> * 3, [[<RandomThin
 recipes.addShaped(<magicalcrops:magicalcrops_EssenceIngots> * 3, [[<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_2AccioEssence>, <RandomThings:ingredient:4>], [<magicalcrops:magicalcrops_2AccioEssence>, <BiomesOPlenty:gems:3>, <magicalcrops:magicalcrops_2AccioEssence>], [<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_2AccioEssence>, <RandomThings:ingredient:4>]]);
 recipes.addShaped(<magicalcrops:magicalcrops_EssenceIngots:3> * 3, [[<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_5ZivicioEssence>, <RandomThings:ingredient:4>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <BiomesOPlenty:gems>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<RandomThings:ingredient:4>, <magicalcrops:magicalcrops_5ZivicioEssence>, <RandomThings:ingredient:4>]]);
 recipes.addShaped(<evilcraft:poisonSac>, [[null, <minecraft:fermented_spider_eye>, null], [<ore:dyeBlack>, <evilcraft:bloodOrb:1>, <ore:dyeBlack>], [null, <minecraft:fermented_spider_eye>, null]]);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:3>, [[<technom:itemBO:1>.reuse(), <ore:gemQuartz>, <technom:itemBO:1>.reuse()]]);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:2>, [[<technom:itemBO:1>.reuse(), <ore:crystalCertusQuartz>, <technom:itemBO:1>.reuse()]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:3>, [[<technom:itemBO:1>.giveBack(), <ore:gemQuartz>, <technom:itemBO:1>.giveBack()]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:2>, [[<technom:itemBO:1>.giveBack(), <ore:crystalCertusQuartz>, <technom:itemBO:1>.giveBack()]]);
 recipes.addShaped(<witchery:distilleryidle>, [[<witchery:ingredient:27>, <ore:ingotIron>, <witchery:ingredient:27>], [<ore:ingotIron>, <minecraft:magma_cream>, <minecraft:iron_ingot>], [<ore:ingotBronze>, <witchery:ingredient:10>, <ore:ingotBronze>]]);
 recipes.addShaped(<minecraft:enchanted_book>, [[<witchery:ingredient:36>, <witchery:ingredient:34>, <witchery:ingredient:36>], [<witchery:ingredient:34>, <minecraft:book>, <witchery:ingredient:34>], [<witchery:ingredient:36>, <witchery:ingredient:34>, <witchery:ingredient:36>]]);
 recipes.addShaped(<minecraft:string> * 4, [[null, <ore:dyeWhite>, null], [<ore:dyeWhite>, <Natura:barleyFood:7>, <ore:dyeWhite>], [null, <ore:dyeWhite>, null]]);
