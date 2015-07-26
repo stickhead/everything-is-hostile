@@ -246,6 +246,11 @@ recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemMaterial:2>.giveBack
 recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemBO:1>.giveBack(), <minecraft:coal>, <technom:itemBO:1>.giveBack()]]);
 recipes.addShaped(<EnderIO:itemPowderIngot>, [[<technom:itemBO:1>.giveBack(), <minecraft:coal:1>, <technom:itemBO:1>.giveBack()]]);
 
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:8>, [[<technom:itemMaterial:2>.giveBack(), <appliedenergistics2:item.ItemMultiMaterial:12>, <technom:itemMaterial:2>.giveBack()]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:8>, [[<technom:itemBO:1>.giveBack(), <appliedenergistics2:item.ItemMultiMaterial:12>, <technom:itemBO:1>.giveBack()]]);
+
+
+
 recipes.addShaped(<witchery:ingredient:150>, [[<ore:gemBlueTopaz>, <arsmagica2:itemOre:5>, <arsmagica2:itemOre:5>], [<ore:netherMaterial>, <ore:gemCoralium>, <minecraft:soul_sand>], [<ore:gemBlueTopaz>, <ore:gemBlueTopaz>, <ore:gemBlueTopaz>]]);
 recipes.addShaped(<magicalcrops:magicalcrops_UltimateFurnace>, [[<magicalcrops:magicalcrops_5ZivicioEssence>, <minecraft:nether_star>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_ZivicioFurnace>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>]]);
 recipes.addShaped(<magicalcrops:magicalcrops_ZivicioFurnace>, [[<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<magicalcrops:magicalcrops_5ZivicioEssence>, <magicalcrops:magicalcrops_ImperioFurnace>, <magicalcrops:magicalcrops_5ZivicioEssence>], [<EnderIO:blockIngotStorage:2>, <EnderIO:blockIngotStorage:2>, <EnderIO:blockIngotStorage:2>]]);
